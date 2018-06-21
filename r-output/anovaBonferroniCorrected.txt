@@ -1,0 +1,30 @@
+Pairwise comparisons using t tests with pooled SD 
+
+data:  hicks.law.data$log_time and paste(hicks.law.data$gestureSet, hicks.law.data$gesture, hicks.law.data$fNmb) 
+
+                Combined Flat 1 Combined Flat 2 Combined Flat 3 Combined Tip 1 Combined Tip 2
+Combined Flat 2 0.18964         -               -               -              -             
+Combined Flat 3 0.00828         1.00000         -               -              -             
+Combined Tip 1  9.7e-07         3.5e-16         < 2e-16         -              -             
+Combined Tip 2  0.77535         1.0e-06         1.1e-09         0.03177        -             
+Combined Tip 3  1.00000         0.00908         0.00011         4.4e-06        1.00000       
+Half Flat 1     1.00000         1.00000         1.00000         1.6e-13        0.00013       
+Half Flat 2     1.00000         1.00000         0.82764         4.4e-10        0.00927       
+Half Flat 3     0.00780         1.00000         1.00000         < 2e-16        9.2e-10       
+Half Tip 1      4.6e-06         3.0e-15         < 2e-16         1.00000        0.09837       
+Half Tip 2      0.21548         8.0e-08         4.5e-11         0.13650        1.00000       
+Half Tip 3      1.00000         0.03948         0.00079         5.3e-07        1.00000       
+                Combined Tip 3 Half Flat 1 Half Flat 2 Half Flat 3 Half Tip 1 Half Tip 2
+Combined Flat 2 -              -           -           -           -          -         
+Combined Flat 3 -              -           -           -           -          -         
+Combined Tip 1  -              -           -           -           -          -         
+Combined Tip 2  -              -           -           -           -          -         
+Combined Tip 3  -              -           -           -           -          -         
+Half Flat 1     0.29774        -           -           -           -          -         
+Half Flat 2     1.00000        1.00000     -           -           -          -         
+Half Flat 3     0.00010        1.00000     0.80779     -           -          -         
+Half Tip 1      2.2e-05        1.3e-12     2.7e-09     < 2e-16     -          -         
+Half Tip 2      0.93026        1.3e-05     0.00156     3.5e-11     0.38091    -         
+Half Tip 3      1.00000        0.95388     1.00000     0.00072     2.9e-06    0.28891   
+
+P value adjustment method: bonferroni 
